@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .image-container {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  </style>
+  <script>
+    function changeImage(buttonId) {
+      var image = document.getElementById("image");
+      if (buttonId === "button1") {
+        image.src = "ass.webp"; // Replace with the path to your image1
+      } else if (buttonId === "button2") {
+        image.src = "assi.jpg"; // Replace with the path to your image2
+      }
+      // Add more else if conditions for additional buttons and images
+    }
+  </script>
+</head>
+<body>
+    <div>
+        <button id="button1" onclick="changeImage('button1')">Button 1</button>
+        <button id="button2" onclick="changeImage('button2')">Button 2</button>
+        <!-- Add more buttons as needed -->
+      </div>
+  <div class="image-container">
+    <img id="image" src="default.jpg" alt="Default Image" width="300px" height="300px">
+  </div>
+ <!--foter-->
+ <style>
+  .footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  .instagram-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  .instagram-id {
+    display: inline-block;
+    vertical-align: middle;
+    color: #000;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+<footer class="footer">
+  <a href="https://www.instagram.com/messallo._.24/" target="_blank">
+    <img class="instagram-logo" src="ins.png" alt="Instagram Logo" width="30px" height="30px">
+    <span class="instagram-id">messallo._.24</span>
+  </a>
+  <a href="https://www.instagram.com/sivadarsh__/" target="_blank">
+    <img class="instagram-logo" src="ins.png" alt="Instagram Logo" width="30px" height="30px">
+    <span class="instagram-id">sivadarsh__</span>
+  </a>
+</footer> 
+ 
+</body>
+</html>
